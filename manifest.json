@@ -1,0 +1,45 @@
+
+{
+  "name": "LockLink",
+  "description": "To keep you safe from online threats! Ever wanted to have a link checker available to you 24/7. Wait no more Lock Link is your web protector! Will scan any link just by the easy task of hovering your mouse over it.",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "icons":{
+    "16":"./obj-16x16.png.png",
+    "32":"./obj-32x32.png.png",
+    "48":"./obj-48x48.png.png",
+    "128":"./obj-128x128.png.png"
+   
+},
+
+"background": {
+ 
+ "scripts":["./background.js"
+  
+
+]
+
+ 
+    
+
+}, 
+"options_page":"./options.html",
+"browser_action":{
+  "default_popup":"popup.html",
+  "default_title":"LOCKLINK"
+},
+
+
+"permissions":[
+  
+  "tabs",
+  "https://www.google.com/*",
+  "storage"
+
+]
+
+}
+
+
+
+
